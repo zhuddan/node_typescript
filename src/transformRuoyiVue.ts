@@ -43,7 +43,8 @@ function updateStyle(input: string) {
     .replaceAll('multiple: true,', '')
     .replaceAll('this.single = selection.length !== 1;', '')
     .replaceAll('this.multiple = !selection.length;', '')
-    .replaceAll('response', 'res');
+    .replaceAll('response', 'res')
+    .replaceAll(':inline="true"', 'inline');
 
   return insertCharacter(res, `
   computed: {
