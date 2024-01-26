@@ -1,6 +1,5 @@
 import type { PropType as VuePropType } from 'vue';
 import type { RouteRecordRaw as _RouteRecordRaw } from 'vue-router';
-
 import type { OnlyOfficeConfigType } from './only-office';
 
 declare global {
@@ -48,7 +47,7 @@ declare global {
   }
 
   declare const DocsAPI = {
-    DocEditor: DocEditor,
+    DocEditor,
   };
   declare type RouteRecordRaw = _RouteRecordRaw;
 }

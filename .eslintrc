@@ -27,7 +27,7 @@
     "import/default": 2,
     "import/export": 2,
     "semi": [2, "always"],
-    "curly": ["error", "multi-or-nest", "consistent"],
+    "curly": ["off", "multi-or-nest", "consistent"],
     "quote-props": ["error", "as-needed"],
     "no-param-reassign": "off",
     "array-bracket-spacing": ["error", "never"],

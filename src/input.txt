@@ -1,0 +1,13 @@
+{
+  "childId": 0,
+  "createBy": "string",
+  "createTime": "2023-09-13T07:30:28.401Z",
+  "id": 0,
+  "params": {},
+  "remark": "string",
+  "updateBy": "string",
+  "updateTime": "2023-09-13T07:30:28.401Z",
+  "water": 0,
+  "waterDate": "2023-09-13T07:30:28.401Z",
+  "waterTime": "2023-09-13T07:30:28.401Z"
+}
